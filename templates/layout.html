@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Saptarshi's</title>
+    <link
+      rel="shortcut icon"
+      href="{{url_for('static', filename='img/title.jpg')}}"
+    />
+    <!-- <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script> -->
+    <!-- <link rel="stylesheet" href="script.js"> -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+     <link rel="stylesheet" href="style.css"> -->
+
+    <link
+      href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css')}}"
+      rel="stylesheet"
+    />
+
+    <!-- Custom fonts for this template -->
+    <link
+      href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom styles for this template -->
+    <link
+      href="{{ url_for('static', filename='css/clean-blog.min.css') }}"
+      rel="stylesheet"
+    />
+
+    <!--<script type='text/javascript' src="{{url_for('static', filename='js/script.js')}}"></script>-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename='css/card.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename='css/3dbutton.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
+    <!--<script src={{url_for('static',filename='js/script.js')}}></script>-->
+  </head>
+
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">I_am_<span>SS</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="/" class="menu-btn">Home</a></li>
+          <li><a href="/about" class="menu-btn">About</a></li>
+          <li><a href="/skills" class="menu-btn">Skills</a></li>
+          <!-- <li><a href="/projects" class="menu-btn">Projects</a></li> -->
+          <!-- <li><a href="/teams">Teams</a></li> -->
+          <li><a href="/contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    {% block body %} {% endblock %}
+
+    <!-- Footer -->
+    <footer>
+    <div class="icons">
+         <a href="https://www.facebook.com/saptarshi.sarkar.3194/" target="_blank">
+            <div class="layer">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fab fa-facebook-f"></span>
+            </div>
+            <div class="text">
+               Facebook
+            </div>
+         </a>
+         <a href="https://twitter.com/IamSS_SS?s=09" target="_blank">
+            <div class="layer">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fab fa-twitter"></span>
+            </div>
+            <div class="text">
+               Twitter
+            </div>
+         </a>
+         <a href="https://www.instagram.com/i__am_ss/" target="_blank">
+            <div class="layer">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fab fa-instagram"></span>
+            </div>
+            <div class="text">
+               Instagram
+            </div>
+         </a>
+         <a href="https://www.linkedin.com/in/saptarshi-sarkar-aa20781b1/"  target="_blank">
+            <div class="layer">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fab fa-linkedin-in"></span>
+            </div>
+            <div class="text">
+               Linkedin
+            </div>
+         </a>
+         <a href="https://youtube.com/channel/UCkCSWT1_Lj1NGkIlNnG49vg" target="_blank">
+            <div class="layer">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fab fa-youtube"></span>
+            </div>
+            <div class="text">
+               YouTube
+            </div>
+         </a>
+         <a href="https://github.com/saptarshisarkar20" target="_blank">
+            <div class="layer">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fab fa-github"></span>
+            </div>
+            <div class="text">
+               GitHub
+            </div>
+         </a>
+      </div>
+      <p>
+      <span
+        >Created By <a href="">Saptarshi Sarkar</a> |
+        <span class="far fa-copyright"></span> 2021 All rights reserved.</span
+      >
+      </p>
+    </footer>
+
+    <!--<script src="script.js"></script>-->
+    <script
+      type="text/javascript"
+      src="{{url_for('static', filename='js/script.js')}}"
+    ></script>
+  </body>
+</html>

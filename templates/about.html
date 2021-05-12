@@ -1,0 +1,41 @@
+{% extends "layout.html" %} 
+{% block body %}
+<!-- about section  -->
+<section class="about" id="about">
+  <div class="max-width">
+    <h2 class="title">About me</h2>
+    <div class="about-content">
+      <div class="column left">
+        <img
+          src="{{ url_for('static', filename='img/about1.jpg') }}"
+          alt="image"
+        />
+      </div>
+      <div class="column right">
+        <div class="text">
+          I'm Saptarshi and I'm an... <span class="typing-2"></span>
+        </div>
+        <p>
+          Efficient Computer Science Engineering student currently attending
+          National Institute of Technology, Durgapur . Aiming to leverage a
+          proven knowledge of computer aided engineering skills to be hired at
+          any relative company and startups. I can be relied upon to help your
+          company or startup to achieve its goals
+        </p>
+        <p>
+          I am interested in Competitive Programming , Web and App development ,
+          problem solving. I am pationate about technology and always excited to
+          learn new tech.
+        </p>
+        <p>
+          I have couple of hobbies as I am a passionate Photographer and editor.
+          I usually spent most of my free time in photo and video editing.
+        </p>
+        <a href="https://drive.google.com/file/d/1LPEARGwgFFiLCTiT5rwSJsZFNJFDj-Q7/view?usp=sharing"
+          target="_blank"
+          >Download CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- skills section start -->
+    <section class="skills" id="skills" style="background-image: url('{{ url_for('static', filename='img/skills2.jpg') }}')">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>⭐ 3 star at <a href="https://www.codechef.com/users/i_am_ss" target="_blank">Codechef</a></p>
+                    <p>⭐ 5 star Python at <a href="https://www.hackerrank.com/saptarshi2017cob" target="_blank">Hackerrank</a></p>
+                    <p>⭐ 4 star C++ at <a href="https://www.hackerrank.com/saptarshi2017cob" target="_blank">Hackerrank</a></p>
+                    <p>⭐ 4 star C at <a href="https://www.hackerrank.com/saptarshi2017cob" target="_blank">Hackerrank</a></p>
+
+                    <!--<a href="#">Read more</a>-->
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line cpp"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line c"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python Flask</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line flask"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line java"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <!-- <div class="bars">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line java"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

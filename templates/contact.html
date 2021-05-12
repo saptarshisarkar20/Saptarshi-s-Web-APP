@@ -1,0 +1,74 @@
+{% extends "layout.html" %} {% block body %}
+<!-- contact section start -->
+<!-- <from name="sentmessage" id="contactform"  action="https://formspree.io/f/xayaeqow" method="POST"> -->
+<section class="contact" id="contact">
+  <div class="max-width">
+    <h2 class="title">Contact me</h2>
+    <div class="contact-content">
+      <div class="column left">
+        <div class="text">Get in Touch</div>
+        <p>
+          Contact with me or leave a message for any enqury. 
+        </p>
+        <p>Have a nice day 😊</p>
+        <div class="icons">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <div class="info">
+              <div class="head">Name</div>
+              <div class="sub-title">Saptarshi Sarkar</div>
+            </div>
+          </div>
+          <div class="row">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info">
+              <div class="head">Address</div>
+              <div class="sub-title">Cooch Behar, West Bengal, India</div>
+            </div>
+          </div>
+          <div class="row">
+            <i class="fas fa-envelope"></i>
+            <div class="info">
+              <div class="head">Email</div>
+              <div class="sub-title">Saptarshi2017cob@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column right">
+        <div class="text">Message me</div>
+        <form class="contact-form" id="contactform"  action="https://formsubmit.co/iamssss@protonmail.com"  method="POST">
+          <div class="fields">
+            <div class="field name">
+              <input type="text" class="fullname" placeholder="Name" name="name" />
+            </div>
+            <div class="field email">
+              <input type="text" class="email-input" placeholder="Email" name="email" />
+            </div>
+          </div>
+          <div class="field">
+            <input type="text" class="subject" placeholder="Phone Number" name="phone"/>
+          </div>
+          <div class="field">
+            <input type="text" class="subject" placeholder="Subject" name="subject"/>
+          </div>
+          <div class="field textarea">
+            <textarea
+              class="message"
+              cols="30"
+              rows="10"
+              placeholder="Message.."
+              name="message"
+            ></textarea>
+          </div>
+          <div class="button-area">
+            <button class="send-msg" type="submit" name="send">
+              Send message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
